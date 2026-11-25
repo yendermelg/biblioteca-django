@@ -1,0 +1,6 @@
+
+Préstamos en la BD: 6 | Libros: 5
+Caso 1 ANTES  : 19 consultas
+Caso 1 DESPUÉS: 1 consultas
+Caso 2 ANTES  : 6 consultas
+Caso 2 DESPUÉS: 2 consultas

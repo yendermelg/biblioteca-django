@@ -1,0 +1,27 @@
+
+== RETO 1: crear autor, libro y dos copias
+Libro de Prueba (2024) | autores: [<Autor: Autor de Prueba>] | copias: ['INV-900', 'INV-901']
+== RETO 2: libros de un autor buscándolo por nombre
+[<Libro: Cien años de soledad (1967)>, <Libro: El amor en los tiempos del cólera (1985)>]
+== RETO 3: títulos que contienen una palabra (sin importar mayúsculas)
+[<Libro: Historia de la Ingeniería de Software (2015)>, <Libro: Ingeniería de Software (2011)>]
+== RETO 4: copias disponibles (sin préstamo activo)
+7 ['INV-002', 'INV-003', 'INV-005', 'INV-007', 'INV-008', 'INV-900', 'INV-901']
+== RETO 5: estudiantes con al menos un préstamo activo, sin repetir
+[<Estudiante: 1152001 · Ana Pérez>, <Estudiante: 1152002 · Luis Gómez>, <Estudiante: 1152003 · María Rojas>]
+== RETO 6: cuántos préstamos ha hecho cada estudiante (incluye devueltos)
+Ana Pérez 3
+Luis Gómez 2
+María Rojas 1
+Carlos Díaz 0
+== RETO 7: libro más prestado
+Cien años de soledad 3
+== RETO 8: estudiantes que nunca han pedido un préstamo
+[<Estudiante: 1152004 · Carlos Díaz>]
+== RETO 9: marcar un préstamo como devuelto con la fecha de hoy
+antes: None
+después (releído de la BD): 2026-11-22 | coincide con hoy: True
+== RETO 10: borrar un autor y ver qué pasa con sus libros
+libros antes: 6 | libros de García Márquez: 2
+libros después: 6
+autores de 'Cien años de soledad': []
